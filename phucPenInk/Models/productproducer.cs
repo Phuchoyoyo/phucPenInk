@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace phucPenInk.Models
 {
-    public class productproducer
+    public class ProductProducer
     {
         [Key]
 
