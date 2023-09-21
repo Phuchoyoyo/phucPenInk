@@ -1,10 +1,13 @@
-﻿using phucPenInk.Data;
+﻿using phucPenInk.Data.Enums;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace phucPenInk.Models
 {
     public class Penproduct
     {
+        //movies
+
         [Key]
 
         public int Id { get; set; }
@@ -21,8 +24,20 @@ namespace phucPenInk.Models
 
         public DateTime enddate { get; set; }   
 
-        public Pentype Pentype { get; set; }    
+        public Pentype Pentype { get; set; }
+
+        public List<Producer_ProductProducer> Producer_ProductProducer { get; set; }
 
 
+        //pens
+
+        public int PensId { get; set; }
+        [ForeignKey("PensId")]
+        public Pens Pens { get; set; }
+
+        //prodcuer
+        public int ProducerId { get; set; }
+        [ForeignKey("PensId")]
+        public Producer Producer { get; set; }
     }
 }

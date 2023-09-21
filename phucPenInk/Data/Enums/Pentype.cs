@@ -1,4 +1,4 @@
-﻿namespace phucPenInk.Data
+﻿namespace phucPenInk.Data.Enums
 {
     public enum Pentype
     {

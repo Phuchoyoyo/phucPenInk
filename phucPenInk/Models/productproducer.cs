@@ -5,6 +5,8 @@ namespace phucPenInk.Models
 {
     public class ProductProducer
     {
+        //actors
+
         [Key]
 
         public int Id { get; set; }   
