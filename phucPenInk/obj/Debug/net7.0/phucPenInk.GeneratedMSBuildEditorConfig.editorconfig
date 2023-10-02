@@ -9,11 +9,11 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = phucPenInk
 build_property.RootNamespace = phucPenInk
-build_property.ProjectDir = C:\Users\Administrator\Source\Repos\Phuchoyoyo\phucPenInk\phucPenInk\
+build_property.ProjectDir = C:\Users\Administrator\source\repos\Phuchoyoyo\phucPenInk\phucPenInk\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Administrator\Source\Repos\Phuchoyoyo\phucPenInk\phucPenInk
+build_property.MSBuildProjectDirectory = C:\Users\Administrator\source\repos\Phuchoyoyo\phucPenInk\phucPenInk
 build_property._RazorSourceGeneratorDebug = 
 
 [C:/Users/Administrator/source/repos/Phuchoyoyo/phucPenInk/phucPenInk/Views/Home/Index.cshtml]

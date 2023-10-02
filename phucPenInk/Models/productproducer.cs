@@ -3,8 +3,10 @@ using System.ComponentModel.DataAnnotations;
 
 namespace phucPenInk.Models
 {
-    public class productproducer
+    public class ProductProducer
     {
+        //actors
+
         [Key]
 
         public int Id { get; set; }   

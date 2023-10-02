@@ -4,6 +4,8 @@ namespace phucPenInk.Models
 {
     public class Pens
     {
+        //cinema
+
         [Key]
         public int Id { get; set; }
 
@@ -12,6 +14,8 @@ namespace phucPenInk.Models
         public string productName { get; set; }
 
         public string description { get; set; }
+
+        public List<Penproduct> Pen { get; set; }    
 
     }
 }
